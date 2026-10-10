@@ -1,0 +1,18 @@
+Ground-truth test rows: 4
+Prediction rows: 4
+Test rows without predictions: 0
+Predictions without test labels: 0
+Train/test ID overlap: 1
+
+Normalization: names ignore case, punctuation, whitespace, and equivalent adjacent single-letter initials; name comparison remains exact after normalization (no fuzzy or substring matching). Dates accept dotted, slash, hyphen, ISO, and common written-month forms; amounts compare as validated decimals; notice periods compare as integer days.
+Recall denominator: non-empty, valid ground-truth values. Invalid labels are counted separately. A missing prediction is a miss.
+Raw exact accuracy requires the prediction string to equal the ground-truth string exactly.
+
+Aggrement Value: recall 100.00% (4/4), raw exact accuracy 100.00% (4/4), invalid labels 0
+Aggrement Start Date: recall 75.00% (3/4), raw exact accuracy 0.00% (0/4), invalid labels 0
+Aggrement End Date: recall 50.00% (2/4), raw exact accuracy 0.00% (0/4), invalid labels 0
+Renewal Notice (Days): recall 50.00% (2/4), raw exact accuracy 50.00% (2/4), invalid labels 0
+Party One: recall 50.00% (2/4), raw exact accuracy 0.00% (0/4), invalid labels 0
+Party Two: recall 50.00% (2/4), raw exact accuracy 0.00% (0/4), invalid labels 0
+
+Caution: at least one test document also occurs in train.csv; interpret scores as a small, non-independent check.

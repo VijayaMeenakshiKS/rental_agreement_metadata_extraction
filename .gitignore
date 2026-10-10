@@ -1,0 +1,20 @@
+# Environment and virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Python cache and byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Archives and build files
+*.zip
+*.tar.gz
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini

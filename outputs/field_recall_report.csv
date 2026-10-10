@@ -1,0 +1,7 @@
+﻿field,labeled_count,invalid_ground_truth_count,normalized_matches,recall_percent,raw_exact_matches,raw_exact_accuracy_percent
+Aggrement Value,4,0,4,100.00,4,100.00
+Aggrement Start Date,4,0,3,75.00,0,0.00
+Aggrement End Date,4,0,2,50.00,0,0.00
+Renewal Notice (Days),4,0,2,50.00,2,50.00
+Party One,4,0,2,50.00,0,0.00
+Party Two,4,0,2,50.00,0,0.00
